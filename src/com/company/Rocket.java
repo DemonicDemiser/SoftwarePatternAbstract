@@ -1,5 +1,5 @@
 package com.company;
 
-public interface Storage {
+public interface Rocket {
     String getId();
 }

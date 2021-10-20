@@ -1,5 +1,7 @@
 package com.company;
 
 public interface ResourceFactory {
-    Instance createInstance(Instance.videoQuality videoQuality);
+    Flight createInstance(Flight.FlightType flightType);
+
+    Rocket createRocket(int rocketCapacity);
 }
